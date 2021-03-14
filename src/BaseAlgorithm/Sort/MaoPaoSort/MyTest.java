@@ -16,8 +16,11 @@ public class MyTest {
         }
     }
     public static int[] maoPaoSort(int[] nums){
+        //外层循环代表每次共需要比n-1次
         for(int i=0;i<nums.length-1;i++){
+            //每次从头比，一直比到已排序数组的前一个位置
             for(int j=0;j<nums.length-i-1;j++){
+                //如果前面的大，那么就更换位置
                 if(nums[j]>nums[j+1]){
                     nums[j] = nums[j]^nums[j+1];
                     nums[j+1] = nums[j]^nums[j+1];
