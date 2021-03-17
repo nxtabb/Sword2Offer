@@ -1,7 +1,7 @@
 package BaseAlgorithm.Search.BinarySearch;
 //二分查找法
 /**
- * @Classname MyTest
+ * @Classname Sword2Offer14_I.MyTest
  * @Description TODO
  * @Date 2021/3/13 13:14
  * @Created by nxt
